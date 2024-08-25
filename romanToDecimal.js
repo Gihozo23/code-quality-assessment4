@@ -1,4 +1,4 @@
-function fromRomanToDecimal (roman) {
+const fromRomanToDecimal = (roman) => {
     const romanDecimalMap = {
         "I": 1,
         "V": 5,
@@ -15,8 +15,3 @@ function fromRomanToDecimal (roman) {
         else return result + currentValue;
     }, 0)
 }
-console.log(fromRomanToDecimal('IV') )//, 4));
-console.log(fromRomanToDecimal('MMVIII') )//, 2008));
-console.log(fromRomanToDecimal('MDCLXVI') )//, 1666));
-console.log(fromRomanToDecimal('XXI') )//, 21));
-console.log(fromRomanToDecimal('MCDLXXVI') )//, 1));
