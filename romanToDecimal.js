@@ -1,4 +1,4 @@
-const fromRomanToDecimal = (roman) => {
+const romanToDecimal = (roman) => {
     const romanDecimalMap = {
         "I": 1,
         "V": 5,
