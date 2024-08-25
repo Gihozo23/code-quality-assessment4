@@ -1,4 +1,3 @@
 const numberFormat = function (number) {
-    return number.toLocaleString();
-  };
-  
+  return number.toLocaleString();
+};
