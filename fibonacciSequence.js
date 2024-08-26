@@ -1,4 +1,4 @@
-const fibonacciSequence = (numebr) => {
+const fibonacciSequence = (number) => {
   if (number < 0 || number === undefined) return "Please enter a positive integer";
   if (number === 0) return [0];
   const fibonacciArray = [0, 1];
